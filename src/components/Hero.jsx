@@ -1,7 +1,9 @@
-import { Box, Button, Container, Stack, Typography } from "@mui/material"
+import { Box, Button, Container, Stack, Toolbar, Typography } from "@mui/material"
 import {  } from "@mui/icons-material"
 const Hero =() => {
-return <Container>
+return <>
+<Toolbar />
+<Container>
     <Stack>
     <img src="image-web-3-mobile.jpg" alt="" />
     </Stack>
@@ -23,8 +25,8 @@ return <Container>
     }}>Read More</Button>
     </Stack>
 
-
 </Container>
+</>
 }
 
 

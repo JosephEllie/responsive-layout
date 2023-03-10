@@ -23,13 +23,13 @@ const Headlines = ({count, img, headline, news}) => {
             </Typography>
             <Typography textAlign="left"
                         variant='h6'
-                        component='h1'
-                        fontWeight={800}
+                        component='p'
+                        fontWeight={600}
             > 
                     {headline}
             </Typography>
             <Typography textAlign="left"
-                        variant='body2'
+                        variant='body1'
                         component='p'
             > 
                 {news}
